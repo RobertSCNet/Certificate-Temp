@@ -10,11 +10,12 @@
   "dependencies": {
     "common-base64-downloader-react": "1.0.7",
     "loader-utils": "3.2.1",
+    "node": "^18.14.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
     "save-as-pdf": "1.0.2",
-    "save-html-as-image": "1.7.1"
+    "save-html-as-image": "^1.7.1"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",

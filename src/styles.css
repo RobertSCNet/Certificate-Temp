@@ -10,7 +10,7 @@
   padding-top: 30px;
 }
 
-.App .Meta {
+.Meta {
   flex-grow: 1;
   padding-right: px;
   display: flex;
@@ -19,11 +19,11 @@
   align-items: center;
 }
 
-.App .Meta h1 {
+.Meta h1 {
   text-decoration: underline;
 }
 
-.App .Meta input {
+.Meta input {
   font-family: inherit;
   padding: 5px;
   width: 100%;
@@ -32,7 +32,7 @@
   border-radius: 2px;
 }
 
-.App #certificateWrapper {
+#certificateWrapper {
   box-shadow: 0 0 5px #000;
   border-radius: 10px;
   overflow: hidden;
@@ -40,12 +40,12 @@
   position: relative;
 }
 
-.App #certificateWrapper img {
+#certificateWrapper img {
   height: 800px;
   display: block;
 }
 
-.App #CName {
+#CName {
   position: absolute;
   width: 78%;
   top: 30%;
@@ -54,7 +54,7 @@
   font-size: 2.5rem;
 }
 
-.App #Date {
+#Date {
   position: absolute;
   width: 78%;
   top: 73%;
@@ -63,7 +63,7 @@
   font-size: 1.5rem;
 }
 
-.App #TrianedBy {
+#TrianedBy {
   position: absolute;
   width: 78%;
   top: 73%;
