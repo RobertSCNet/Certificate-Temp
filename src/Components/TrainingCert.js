@@ -1,6 +1,6 @@
 import React, { Component, useState, size } from "react";
 import { saveAsPng } from "save-html-as-image";
-import certificatetemp from "../Img/certificatetemp.png";
+import certificatetemp1 from "../Img/certificatetemp.png";
 import "../CSS/TrainingC.css";
 
 function TrainingCert() {
@@ -91,7 +91,7 @@ function TrainingCert() {
           <p>{TrainedBy}</p>
         </div>
 
-        <img src={certificatetemp} alt="Certificate" />
+        <img src={certificatetemp1} alt="Certificate" />
       </div>
     </div>
   );

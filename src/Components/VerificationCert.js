@@ -1,6 +1,6 @@
 import React, { Component, useState } from "react";
 import { saveAsPng } from "save-html-as-image";
-import verificationCert from "../Img/VerificationCert.png";
+import verificationCert1 from "../Img/VerificationCert.png";
 import "../CSS/VerificationC.css";
 
 function VerificationCert() {
@@ -95,7 +95,7 @@ function VerificationCert() {
           <p>{TrainedBy}</p>
         </div>
 
-        <img src={verificationCert} alt="Certificate" />
+        <img src={verificationCert1} alt="Certificate" />
       </div>
     </div>
   );
