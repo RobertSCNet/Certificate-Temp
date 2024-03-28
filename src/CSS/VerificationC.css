@@ -68,18 +68,20 @@
   #CName1 {
     position: absolute;
     width: 78%;
-    top: 68.5%;
+    top: 70%;
     left: 22.5%;
     text-align: left;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
     color: #3b3a3a;
   }
   
+
+
   #Date1 {
     position: absolute;
     width: 78%;
-    top: 67.65%;
+    top: 69.5%;
     left: 18%;
     text-align: center;
     font-size: 0.8rem;
@@ -90,8 +92,8 @@
   #Date2 {
     position: absolute;
     width: 78%;
-    top: 80%;
-    left: 18%;
+    top: 81.7%;
+    left: 19%;
     text-align: center;
     font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
@@ -101,7 +103,7 @@
   #TrianedBy {
     position: absolute;
     width: 78%;
-    top: 80%;
+    top: 81.7%;
     left: 11%;
     text-align: left;
     font-size: 0.8rem;
