@@ -1,9 +1,10 @@
-import React from "react";
+import React,{useState} from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import "../CSS/Nav.css";
 import logo from "../Img/SCNetLogo.png";
 
 function Nav() {
+  const [isLoggedIn,setIsLoggedIn] =useState(false);
   let Navigate = useNavigate();
   return (
     <div id="nav">
