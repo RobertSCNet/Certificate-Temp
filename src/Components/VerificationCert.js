@@ -9,6 +9,20 @@ function VerificationCert() {
   const [Date2, setDate2] = useState("");
   const [TrainedBy, setTrainedBy] = useState("");
 
+  
+
+  function adjust(){
+    let div = document.getElementById("CName1");
+    if(div != null){
+      if(div.offsetHeight > 35){
+        div.style.top = "67%";
+      }
+      else{
+        div.style.top = "70%";
+      }
+    }
+  }
+
   return (
     <div className="TC">
       <div className="Meta">
@@ -21,7 +35,7 @@ function VerificationCert() {
             placeholder="Please enter the Comapny Name"
             value={Name}
             onChange={(e) => {
-              setName(e.target.value);
+              setName(e.target.value); adjust();
             }}
           />
 

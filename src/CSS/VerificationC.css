@@ -67,7 +67,7 @@
 
   #CName1 {
     position: absolute;
-    width: 78%;
+    max-width: 220px;
     top: 70%;
     left: 22.5%;
     text-align: left;
